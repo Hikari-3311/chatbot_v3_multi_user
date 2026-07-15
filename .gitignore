@@ -1,0 +1,17 @@
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# Python 运行时
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# 运行时数据（用户会话持久化）
+data/sessions/*.json
